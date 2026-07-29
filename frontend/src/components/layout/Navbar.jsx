@@ -20,7 +20,7 @@ function Navbar() {
           </li>
 
           <li>
-            <a href="https://github.com/yourusername">
+            <a href="https://github.com/ledalmeniana444-bit">
               GitHub
             </a>
           </li>
