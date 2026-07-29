@@ -1,32 +1,39 @@
 function Hero() {
   return (
-    <section className="flex min-h-screen items-center justify-center">
-      <div className="text-center">
-        <p className="mb-3 text-gray-500">
+    <section className="min-h-screen flex items-center">
+      <div className="max-w-5xl mx-auto px-6">
+        <p className="text-gray-500 mb-3">
           Hello, I'm
         </p>
 
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4">
           Led Almeniana
         </h1>
 
-        <h2 className="mt-3 text-2xl">
-          Aspiring Web Developer
+        <h2 className="text-2xl md:text-3xl mb-6">
+          Software Developer
         </h2>
 
-        <p className="mx-auto mt-5 max-w-xl text-gray-600">
-          BSIT graduate passionate about building web applications
-          and continuously improving my skills in modern technologies.
+        <p className="max-w-2xl text-gray-600 mb-8">
+          BSIT graduate passionate about building software solutions,
+          developing web applications, and continuously improving
+          my skills through real-world projects.
         </p>
 
-        <div className="mt-8 flex justify-center gap-4">
-          <button className="rounded-lg bg-black px-6 py-3 text-white">
+        <div className="flex gap-4">
+          <a
+            href="#projects"
+            className="px-6 py-3 rounded-full bg-black text-white"
+          >
             View Projects
-          </button>
+          </a>
 
-          <button className="rounded-lg border px-6 py-3">
+          <a
+            href="#contact"
+            className="px-6 py-3 rounded-full border"
+          >
             Contact Me
-          </button>
+          </a>
         </div>
       </div>
     </section>
