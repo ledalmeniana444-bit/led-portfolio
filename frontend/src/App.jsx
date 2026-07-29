@@ -1,14 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import Hero from "./components/sections/Hero";
 
-function App() {
-  return (
+function App(){
+  return(
     <main>
-      <h1>Led Almeniana</h1>
-      <p>Full-Stack Web Developer</p>
+      <Hero />
     </main>
   );
 }
